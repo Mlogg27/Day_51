@@ -114,7 +114,10 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+.list-container .item p {
+  word-wrap: break-word;
+  max-width: 300px;
+}
 .button-8 {
   background-color: #e1ecf4;
   border-radius: 3px;

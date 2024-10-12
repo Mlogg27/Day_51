@@ -29,7 +29,7 @@ function App() {
     }
     const newWork = { id: v4(), title: inputRef.current.value, isDone: false };
     dispatch({ action: 'lists/onSave', payload: newWork });
-    inputRef.current.value = "";
+    inputRef.current.value = null;
   }
 
   const onButtonClick = (index)=>{
